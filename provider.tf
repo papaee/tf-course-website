@@ -1,8 +1,8 @@
 
 terraform {
   backend "gcs" {
-    bucket  = "roidtc-240408-user502-tf-state"
-    prefix  = "terraform/state"
+    bucket = "roidtc-240408-user502-tf-state"
+    prefix = "terraform/state"
   }
 
   required_providers {
